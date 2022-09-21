@@ -66,6 +66,12 @@ main section article .value {
   font-size: 22px;
   font-weight: 600;
 }
+@media screen and (max-width: 400px) {
+  main section article .key,
+main section article .value {
+    font-size: 18px;
+  }
+}
 main section article .value {
   justify-self: end;
 }
